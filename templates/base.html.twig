@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+        <title>{% block title %} COURS {% endblock %}</title>
+         {% block stylesheets %}
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>SavoirInfini</title>
+	<meta name="description" content="Free Responsive Html5 Css3 Templates | Zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	
+    <!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+	================================================== -->
+  	<link rel="stylesheet" href="{{asset('css/zerogrid.css')}}">
+	<link rel="stylesheet" href="{{asset('css/style.css')}}">
+	<link rel="stylesheet" href="{{asset('css/lightbox.css')}}">
+	
+	<!-- Custom Fonts -->
+    <link href="{{asset('font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+	
+	
+	<link rel="stylesheet" href="{{asset('css/menu.css')}}">
+	<script src="{{asset('js/jquery1111.min.js')}}" type="text/javascript"></script>
+	<script src="{{asset('js/script.js')}}"></script>
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/Items/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+</head>
+{% endblock %}
+  {% block body %}
+
+<body class="home-page">
+	<div class="wrap-body">
+		<header>
+			<div id="cssmenu" >
+				<ul>
+				   <li class="active"><a href="index.html"><span>SavoirInfini</span></a></li>
+				   <li class="has-sub"><a href="#"><span>Category</span></a>
+					  <ul>
+						 <li class="has-sub"><a href="#"><span>Item 1</span></a>
+							<ul>
+							   <li><a href="#"><span>Sub Item</span></a></li>
+							   <li class="last"><a href="#"><span>Sub Item</span></a></li>
+							</ul>
+						 </li>
+						 <li class="has-sub"><a href="#"><span>Item 2</span></a>
+							<ul>
+							   <li><a href="#"><span>Sub Item</span></a></li>
+							   <li class="last"><a href="#"><span>Sub Item</span></a></li>
+							</ul>
+						 </li>
+					  </ul>
+				   </li>
+				   <li><a href="archive.html"><span>Archive</span></a></li>
+				   <li><a href="single.html"><span>About</span></a></li>
+				   <li class="last"><a href="contact.html"><span>Contact</span></a></li>
+				</ul>
+			</div>
+			<div class="header-banner zerogrid" style="width: 100%;">
+				<div class="row">
+					<div class="col-2-3">
+						<img src="images/header.jpg">
+					</div>
+					<div class="col-1-3">
+						<div class="header-text">
+							<h1>soutien scolaire</h1>
+							<p></p>
+							<a class="button button-header" href="index.html">إقرأ أكثر</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--////////////////////////////////////Container-->
+		<section id="container">
+			<div class="wrap-container">
+				
+				<!-----------------content-box-2-------------------->
+				<section class="content-box box-2">
+					<div class="zerogrid">
+						<div class="row wrap-box"><!--Start Box-->
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<div class="zoom-container">
+											<img src="images/feature-icon-3.png" />
+										</div>
+										<div class="box-item-content">
+											<h3><a href="{{path('app_competence')}}">السنة الثالثة ابتدائي</a></h3>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<div class="zoom-container">
+											<img src="images/feature-icon-2.png" />
+										</div>
+										<div class="box-item-content">
+											<h3><a href="{{path('app_competence')}}">السنة الثانية ابتدائي</a></h3>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<div class="zoom-container">
+											<img src="images/feature-icon-1.png" />
+										</div>
+										<div class="box-item-content">
+											<h3><a href="{{path('app_competence')}}">السنة الأولى إبتدائي </a></h3>
+										</div>
+									</div>
+								</div>
+							</div>
+                            </div>
+                            <div class="row wrap-box"><!--Start Box-->
+								<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<div class="zoom-container">
+											<img src="images/6.png" />
+										</div>
+										<div class="box-item-content">
+											<h3><a href="{{path('app_competence')}}">السنة السادسة ابتدائي</a></h3>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<div class="zoom-container">
+											<img src="images/5.png" />
+										</div>
+										<div class="box-item-content">
+											<h3><a href="{{path('app_competence')}}">السنة الخامسة ابتدائي</a></h3>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<div class="zoom-container">
+											<img src="images/feature-icon-4.png" />
+										</div>
+										<div class="box-item-content">
+											<h3><a href="{{path('app_competence')}}">السنة الرابعة ابتدائي</a></h3>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-3-------------------->
+				<section class="content-box boxstyle-2 box-3">
+					<div class="zerogrid">
+						<div class="row wrap-box"><!--Start Box-->
+							<div class="header">
+								<div class="wrapper">
+									<div class="intro">تعلم </div>
+									<hr class="line">
+									<h2 class="color-yellow">الدروس</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-1-4">
+									<div class="wrap-col">
+										<div class="box-item">
+											<div class="zoom-container">
+												<img src="images/kids2-thumb.jpg" />
+											</div>
+											<div class="box-item-content">
+												<h4>الحساب لسنة الأولى إبتدائي</h4>
+												<a href="single.html">تعلم</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-1-4">
+									<div class="wrap-col">
+										<div class="box-item">
+											<div class="zoom-container">
+												<img src="images/kids3-thumb.jpg" />
+											</div>
+											<div class="box-item-content">
+												<h4> الهندسة لسنة الأولى إبتدائي </h4>
+												<a href="single.html">تعلم</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-1-4">
+									<div class="wrap-col">
+										<div class="box-item">
+											<div class="zoom-container">
+												<img src="images/kids4-thumb.jpg" />
+											</div>
+											<div class="box-item-content">
+												<h4>نظام قيس</h4>
+												<a href="single.html">تعلم</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-1-4">
+									<div class="wrap-col">
+										<div class="box-item">
+											<div class="zoom-container">
+												<img src="images/kids1-thumb.jpg" />
+											</div>
+											<div class="box-item-content">
+												<h4>نظام قيس لسنة الثانية إبتدائي</h4>
+												<a href="single.html">تعلم</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+			
+		<!--////////////////////////////////////Footer-->
+		<footer>
+			<div class="zerogrid wrap-footer">
+				<div class="row">
+					<div class="col-1-3 col-footer-1">
+						<div class="wrap-col">
+							<h3 class="widget-title">About Us</h3>
+					
+						</div>
+					</div>
+					<div class="col-1-3 col-footer-2">
+						<div class="wrap-col">
+							<h3 class="widget-title">Recent Post</h3>
+							<ul>
+								<li><a href="#">نظام قيس لسنة الثانية إبتدائي</a></li>
+								<li><a href="#"> الهندسة لسنة الأولى إبتدائي </a></li>
+								<li><a href="#">الحساب لسنة الأولى إبتدائي</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-1-3 col-footer-3">
+						<div class="wrap-col">
+							<h3 class="widget-title">Tag Cloud</h3>
+							<a href="#">لسنة الأولى إبتدائي </a>
+							<a href="#">السنة الثانية ابتدائي</a>
+							<a href="#">لسنة الثالثة ابتدائي</a>
+							<a href="#">السنة الرابعة ابتدائي</a>
+							<a href="#">السنة الخامسة ابتدائي</a>
+							<a href="#">السنة السادسة ابتدائي</a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</footer>
+	</div>
+</body>
+
+        {% endblock %}
+
+</html>
